@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@600&display=swap');
+
+body {
+  background-color: #FDFCFA;
+}
+
+.navbar {
+  background-color: #FFF;
+}
+
+.navbar-brand {
+  font-family: 'Rubik';
+  font-size: 32px;
+  color: #DA2C2C !important;
+}
+
+.navbar>.container-fluid {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav>li>a {
+  font-family: 'Rubik';
+  font-size: 18px;
+  color: #000 !important;
+}
+
+.navbar-nav>li.active>a {
+  background-color: transparent !important;
+  color: #DA2C2C !important;
+}
+
+.word {
+  padding: 5px;
+  border: none;
+  font-family: 'Karla';
+  font-size: 24px;
+  line-height: 1.75;
+  margin-bottom: 8px;
+}
+
+.unseen {
+  background-color: #8093B210;
+}
+
+.new {
+  background-color: #DE5B1310;
+}
+
+.recognized {
+  background-color: #DE941010;
+}
+
+.familiar {
+  background-color: #DECD0D10;
+}
+
+.learned {
+  background-color: #EAE2B910;
+}
+
+.known {
+  background-color: transparent;
+}
+
+.word_translation {
+  color: #DA2C2C;
+  display: flex;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  font-family: 'Karla';
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #F1DCB7;
+  justify-content: space-between;
+}
+
+.fa-external-link-alt {
+  color: #DF9378;
+}
+
+.box-title {
+  font-family: 'Rubik';
+  font-size: 32px;
+}
+
+.box {
+  background-color: #FFF;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.modal-title {
+  font-family: 'Rubik';
+}
+
